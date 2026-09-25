@@ -29,19 +29,17 @@ classifiers = [
 
 dynamic = ["version"]
 
-dependencies = [
-    # "requests >= 2.31.0",
-    # "urllib3 >= 2.0.0",
-]
+dependencies = []
 
 [project.urls]
 Homepage = "https://github.com"
 Repository = "https://github.com"
 "Bug Tracker" = "https://github.com/issues"
-Documentation = "https://readthedocs.io"
+Documentation = "https://marqforge.readthedocs.io"
 
-[tool.setuptools.packages.find]
-exclude = ["tests*", "docs*"]
+[tool.setuptools]
+package-dir = { "marqforge" = "metadata"}
 
 [tool.setuptools_scm]
 local_scheme = "no-local-version"
+write_to = "metadata/git_version.py"

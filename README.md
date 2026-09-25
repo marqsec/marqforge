@@ -64,17 +64,22 @@ print(f"Deskripsi       : {project['description']}")
 
 ```text
 MarqForge/
-├── marqforge/               # Source code utama framework
-│   ├── __init__.py          # Pintu utama export fungsi publik
+├── chrome-linux/            # Biner browser untuk modul scanning (Dikelola Git LFS)
+├── metadata/                # Folder fisik kode utama framework (Dipanggil via 'import marqforge')
+│   ├── __init__.py          # Pintu utama export fungsi publik framework
 │   ├── author.py            # Modul informasi pembuat dinamis
 │   ├── license.py           # Modul aturan lisensi dan hak cipta
 │   ├── project.py           # Modul informasi profil proyek
 │   ├── runtime.py           # Modul deteksi lingkungan sistem
 │   └── version.py           # Modul pelacak versi otomatis
-├── tests/                   # Folder untuk unit testing aplikasi
-├── pyproject.toml           # Konfigurasi manajemen paket modern (PEP 621)
-├── setup.py                 # Konfigurasi paket legacy untuk kompatibilitas alat lama
+├── tests/                   # Folder untuk unit testing otomatis aplikasi
+│   └── test_metadata.py     # Skrip penguji fungsi mendatata dinamis
+├── .gitattributes           # Konfigurasi pelacakan file besar Git LFS
+├── .gitignore               # Daftar file sampah/cache yang diabaikan oleh Git
+├── pyproject.toml           # Konfigurasi manajemen paket modern (PEP 621) tanpa komentar
+├── setup.py                 # Konfigurasi paket sinkron untuk kompatibilitas alat lama
 └── README.md                # Dokumentasi utama proyek
+
 ```
 
 ---

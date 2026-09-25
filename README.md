@@ -1,8 +1,10 @@
 # MarqForge
 
-[![Python Version](https://shields.io)](https://python.org)
-[![License: MIT](https://shields.io)](https://opensource.org)
-[![Development Status](https://shields.io)](https://pypi.org)
+[![Python Version](https://img.shields.io/badge/python-3.10%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
+
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue)](https://opensource.org/license/mit/)
+
+[![Development Status](https://img.shields.io/badge/status-in%20development-orange)](https://pypi.org/)
 
 **MarqForge** adalah sebuah *modular web security discovery framework* modern yang dirancang untuk kebutuhan pemindaian keamanan, pengumpulan informasi (*reconnaissance*), dan analisis kerentanan web secara otomatis dan terstruktur.
 

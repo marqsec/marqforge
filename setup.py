@@ -17,7 +17,7 @@ setup(
     
     author="Marq (MarqSec)",
     author_email="marqlinux@gmail.com",
-    description="Modular web security discovery framework",
+    description="Web security discovery framework",
     long_description=long_description,
     long_description_content_type="text/markdown",
     license="MIT",

@@ -63,7 +63,7 @@ print(f"Deskripsi       : {project['description']}")
 ## 📁 Struktur Folder Proyek
 
 ```text
-marqforge/
+MarqForge/
 ├── marqforge/               # Source code utama framework
 │   ├── __init__.py          # Pintu utama export fungsi publik
 │   ├── author.py            # Modul informasi pembuat dinamis
@@ -71,8 +71,9 @@ marqforge/
 │   ├── project.py           # Modul informasi profil proyek
 │   ├── runtime.py           # Modul deteksi lingkungan sistem
 │   └── version.py           # Modul pelacak versi otomatis
-├── tests/                   # Folder unit testing (opsional)
+├── tests/                   # Folder untuk unit testing aplikasi
 ├── pyproject.toml           # Konfigurasi manajemen paket modern (PEP 621)
+├── setup.py                 # Konfigurasi paket legacy untuk kompatibilitas alat lama
 └── README.md                # Dokumentasi utama proyek
 ```
 

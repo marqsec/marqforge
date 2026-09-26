@@ -64,7 +64,6 @@ print(f"Deskripsi       : {project['description']}")
 
 ```text
 MarqForge/
-├── chrome-linux/            # Biner browser untuk modul scanning (Dikelola Git LFS)
 ├── metadata/                # Folder fisik kode utama framework (Dipanggil via 'import marqforge')
 │   ├── __init__.py          # Pintu utama export fungsi publik framework
 │   ├── author.py            # Modul informasi pembuat dinamis
@@ -74,7 +73,6 @@ MarqForge/
 │   └── version.py           # Modul pelacak versi otomatis
 ├── tests/                   # Folder untuk unit testing otomatis aplikasi
 │   └── test_metadata.py     # Skrip penguji fungsi mendatata dinamis
-├── .gitattributes           # Konfigurasi pelacakan file besar Git LFS
 ├── .gitignore               # Daftar file sampah/cache yang diabaikan oleh Git
 ├── pyproject.toml           # Konfigurasi manajemen paket modern (PEP 621) tanpa komentar
 ├── setup.py                 # Konfigurasi paket sinkron untuk kompatibilitas alat lama

@@ -10,7 +10,4 @@ class Checkhost:
         self.cmd = Commandline()
         self.listhost_active: List[Dict[str, Any]] = []
         
-    def check(self):
-        result = self.cmd.execute(Tools("marqsec.id").host)
-        
-        
+  
